@@ -2,15 +2,20 @@
     margin-bottom: 100px;
 }
 
+.container-1, .container-2, .container-3, .container-4{
+    margin-top: 100px;
+}
+
+
 .orange-bg{
-    background-color: #fceae8;
+    background-image: linear-gradient(to bottom, rgba(202, 148, 246, 0.769) 50%, rgb(142, 108, 150) 100%);
     border-radius: 10px;
 }
 .carousel-item{
     padding: 20px 40px;
 }
 .price{
-    color: #ff136f;
+    color: #f70707;
 }
 .buy-now-button{
     background-image: linear-gradient(to bottom, #ff589b 0%,#ff136f 100%);
@@ -19,4 +24,52 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.cat-1{
+    background-image: linear-gradient(to bottom, rgba(226, 42, 29, 0.769) 50%,rgb(244, 12, 12) 100%);
+    
+}
+
+.cat-2{
+    background-image:linear-gradient(to left, rgb(28, 25, 220) 45%, rgb(23, 24, 105) 100%);
+    
+}
+
+.cat-3{
+    background-image:linear-gradient(to left, rgb(13, 236, 76) 50%, rgb(40, 114, 6) 100%);
+   
+}
+
+
+.categories h1{
+    color: #fceae8;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.back-on{
+    background-image: linear-gradient(to bottom, rgba(255, 219, 188, 0.769) 50%, rgb(240, 225, 185) 100%);
+    border-radius: 16px;
+}
+
+#Contact{
+    height: 300px
+}
+
+#Contact h6{
+    color: darkmagenta;
 }
